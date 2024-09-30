@@ -1,7 +1,12 @@
 import "./App.css";
+import FetchData from "./FetchData";
 
 function App() {
-  return <div>Space X</div>;
+  return (
+    <div>
+      <FetchData />
+    </div>
+  );
 }
 
 export default App;
